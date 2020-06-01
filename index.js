@@ -37,10 +37,12 @@ const dayOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", 54, true, "s
 console.log(dayOfWeek);
 
 //이것과는 다르게 {}로 묶으면 object가 된다. object 안에 Array 넣을 수 있다.
-const jungInfo = {name:"Jungmo", age:33, gender:"Male", isHandsome:true}
+const jungInfo = {name:"Jungmo", age:33, gender:"Male", isHandsome:true, favMovies: ["aasdf", "adsfasf", "asdfasfd"], favFood: ["kimchi", "mandoo"]}
 
 console.log(jungInfo.gender);  //하나의 값으로의 접근은 . 하나로 한다
 
 jungInfo.gender = "namek";
 
 console.log(jungInfo.gender);
+
+console.log(jungInfo);
