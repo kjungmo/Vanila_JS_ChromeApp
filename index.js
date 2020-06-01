@@ -7,3 +7,10 @@ console.log(b, a);
 
 // const변수를 사용하면 변수에 값을 변경할 시 에러가 생긴다
 // var 를 사용해도 된다. let 처럼 var도 변수 값을 변경할 수 있다.
+
+//변수를 처음 사용할 때 const를 사용해라 . 진짜 필요할 때만 let을 사용하자
+
+
+/*String
+const what = "Jungmo";
+*/
