@@ -11,6 +11,21 @@ console.log(b, a);
 //변수를 처음 사용할 때 const를 사용해라 . 진짜 필요할 때만 let을 사용하자
 
 
-/*String
+/*String  텍스트라고 보면 된다.
 const what = "Jungmo";
+*/
+
+/* boolean 에서의 true 와 false는 텍스트가 아니다
+boolean
+const wat = true;
+*/
+
+/*
+Number
+const what = 2312;
+*/
+
+/*
+Float 는 소숫점이 있는 숫자이다.
+const what = 33.2;
 */
