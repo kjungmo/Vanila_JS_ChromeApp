@@ -4,3 +4,5 @@ let a = 221;
 let b = a - 5;
 a = 4;
 console.log(b, a);
+
+// const변수를 사용하면 변수에 값을 변경할 시 에러가 생긴다
