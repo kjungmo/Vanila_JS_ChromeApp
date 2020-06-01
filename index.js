@@ -29,3 +29,7 @@ const what = 2312;
 Float 는 소숫점이 있는 숫자이다.
 const what = 33.2;
 */
+
+
+const dayOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+console.log(dayOfWeek);
