@@ -30,7 +30,17 @@ Float 는 소숫점이 있는 숫자이다.
 const what = 33.2;
 */
 
+//Array는 []안에 값을 넣는다. DB에서 가져온 데이터라면 Array쓰는게 좋다. 그 경우 많은 Array를 만들게 된다.
 const something = "Something";
 
 const dayOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", 54, true, "stuff", something];
 console.log(dayOfWeek);
+
+//이것과는 다르게 {}로 묶으면 object가 된다. object 안에 Array 넣을 수 있다.
+const jungInfo = {name:"Jungmo", age:33, gender:"Male", isHandsome:true}
+
+console.log(jungInfo.gender);  //하나의 값으로의 접근은 . 하나로 한다
+
+jungInfo.gender = "namek";
+
+console.log(jungInfo.gender);
