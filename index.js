@@ -58,3 +58,19 @@ console.log(whoami);
 /*const obinob = {name:"who", {mana:"kind", "matters"}}
 console.log(obinob);
 */  // object(객체)안에는 객체를 넣지 못한다. 
+
+//console은 object이다. log는 function (function is a piece of code that you can use as many times as you want)
+console.log(console)
+
+//function
+function sayHello(){
+  console.log('Hello!');
+}
+
+sayHello();// console.log사용하지 않고도 가능하다. sayHello어떤 기능을 가졌는지 이미 알기 때문이다.
+console.log("Hi!") //괄호 안에는 argument(인자)가 넣어져있어야 값이 출력된다. log함수가 그것을 사용할 수 있다. aurgument는 parameter같은 것이다. 그래서 아래왜같이 함수 괄호안에 넣어줄 수 있다.
+
+function sayHelllo(potato){   //이게 함수에게 외부에 있는 데이터를 주는 방법이다.
+  console.log("Hello!", potato)  
+}
+sayHelllo("JM");
