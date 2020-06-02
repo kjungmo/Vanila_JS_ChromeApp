@@ -82,3 +82,24 @@ function sayHelllo(name, age){
 sayHelllo("JM", 22);
 
 //return 쓰면 어떨까?
+function sayHelllo(name, age){
+  console.log(`Hello ${name} you are ${age} years old`)
+}
+
+const greetNicolas = sayHelllo("JM", 26)
+console.log(greetNicolas)  //-> 이 경우 undefined라고 뜬다. 왜냐하면 const에서의 greetnicolas는 sayHelllo의 실행된 결과 값이다. 위의 function 에서 console.log값에 JM 과 22를 넣어서 출력하는데 그 밑의 greetnicolas가 인자로 들어간 console.log에는 반환할 값이 없게 된다. 즉 return하는 값이 없기 때문에 "undefined"라고 뜬다. undefined 라고 나오지 않게 하려면
+function sayHelllo(name, age){
+  return `Hello ${name} you are ${age} years old` ;
+}
+
+const greetNicola = sayHelllo("JM", 22)
+console.log(greetNicola)  // undefined 안 뜬다.
+
+const calculator = {
+  plus: function(a, b){
+    return a + b;
+  }
+}
+//console.log(greetmama)
+const plus = calculator.plus(5, 5)
+console.log(plus);
