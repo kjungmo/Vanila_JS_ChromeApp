@@ -46,3 +46,15 @@ jungInfo.gender = "namek";
 console.log(jungInfo.gender);
 
 console.log(jungInfo);
+
+
+//Quiz DAY2
+console.log('hello', "hello");
+
+const myplan = ['eat', 'play', 'love', [2,3,4], {name:'kang'}];
+console.log(myplan);
+const whoami = {name: "kang", age:"29", favHobby:["car", "jam", {kind:"cool"}]}
+console.log(whoami);
+/*const obinob = {name:"who", {mana:"kind", "matters"}}
+console.log(obinob);
+*/  // object(객체)안에는 객체를 넣지 못한다. 
