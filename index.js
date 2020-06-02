@@ -95,11 +95,33 @@ function sayHelllo(name, age){
 const greetNicola = sayHelllo("JM", 22)
 console.log(greetNicola)  // undefined 안 뜬다.
 
+
+// object 다뤄보기
 const calculator = {
   plus: function(a, b){
     return a + b;
   }
+  minus: function(a, b){
+    return a - b;
+  }
+  divide: function(a, b){
+    return a / b;
+  }
+  multiply: function(a, b){
+    return a * b;
+  }
+  powerof: function(a, b){
+    return a ** b;
+  }
 }
 //console.log(greetmama)
 const plus = calculator.plus(5, 5)
+const minus = calculator.minus(5, 2)
+const divide = calculator.divide(5, 5)
+const multiply = calculator.multiply(5, 5)
+const powerof = calculator.powerof(5, 5)
 console.log(plus);
+console.log(minus);
+console.log(divide);
+console.log(multiply);
+console.log(powerof);
