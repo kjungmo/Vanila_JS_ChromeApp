@@ -74,3 +74,11 @@ function sayHelllo(name, age){   //이게 함수에게 외부에 있는 데이�
   console.log("Hello!", name, " you have ", age, " years of age.")  
 } // 이처럼 console.log function은 무한으로 arguments를 가질 수 있다.
 sayHelllo("JM", 15);
+
+//신기한 방식 ''또는 ""이 아닌 ``을 사용하는 방식(백틱이라고 부른다)
+function sayHelllo(name, age){
+  console.log(`Hello ${name} you are ${age} years old`)
+}
+sayHelllo("JM", 22);
+
+//return 쓰면 어떨까?
